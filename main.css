@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Caveat', cursive;
+  font-weight: 300;
+  font-size: 48px;
+}
+header > .container img{
+  width: 100px;
+}
+
+header > .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header, section h2, section h3,
+form button{
+  font-family: 'Bungee', cursive;
+  font-weight: normal;
+}
+body, input, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+header{
+  padding: 16px 0;
+  background-color: #035e18bc;
+  color: #ecf0f1;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 18px;
+}
+
+header nav li{
+  display: inline;
+  margin-left: 16px;
+  color:#ecf0f1;
+  font-size: 34px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header nav li a{
+  color:#ecf0f1 ;
+  text-decoration: none;
+  font-size: 20px;
+  }
+
+
+
+.historia img{
+  width: 540px;
+  display: flexbox;
+  margin-right: 18px;
+}
+.historia{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.atracoes img {
+  display: flexbox ;
+  width: 400px;
+  align-items: center;
+}
+
+.romaria2 img {
+  display: flexbox ;
+  width: 48%;
+  align-items: center;
+
+}
+
+.brands-list img{
+  height: 24px;
+}
+
+section h2 {
+  font-family: 'EB Garamond', serif;
+  color: #035e18bc;
+  margin-bottom: 14px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+section .container > img
+{
+  height: 480px;
+  margin-right: 32px;
+  margin-top: 18px;
+}
+
+.brands-list li {
+  display: inline;
+  margin-right: 8px;
+  
+}
+
+section .container{
+  align-items: flex-start;
+}
+
+section {
+  color: #035e18bc;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a{
+  text-decoration: none;
+}
+
+#contact .container{
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-methods img{
+  width:500px;
+}
+
+form input,
+form textarea,
+form button{
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  weight: 180px;
+}
+
+section h3{
+  margin-bottom: 16px;
+}
+
+form button{
+  background-color:#035e18bc ;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: #07a82cbc;
+}
+
+input:focus, textarea:focus{
+  outline-color: #035e18bc;
+}
+
+footer{
+  background-color: #035e18bc;
+  color: #ecf0f1;
+  padding: 16px 0
+}
+hr, .hr{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 18px;
+  height: 2px;
+  border-top: 1px solid #035e18bc;
+  background-color: #035e18bc;
+}
+
+#contact{
+  margin-bottom: 18px;
+}
+
+footer .container p{
+  text-align: center;
+}
